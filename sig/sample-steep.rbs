@@ -1,0 +1,9 @@
+# TypeProf 0.21.11
+
+# Classes
+class SampleSteep
+  attr_reader animal: String
+  attr_reader height: Integer
+  def initialize: (animal: String, height: Integer) -> void
+  def hello: -> String
+end
